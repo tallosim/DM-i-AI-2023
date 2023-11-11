@@ -1,0 +1,7 @@
+
+version: "3"
+services:
+  emily-ai-text-detector-ob9m2n:
+    volumes:
+      - ../../:/workspace:cached
+

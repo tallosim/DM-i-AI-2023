@@ -8,7 +8,7 @@ router = APIRouter()
 def predict_endpoint(request: PredictRequestDto):
     class_ids = []
     for answer in request.answers:
-        class_ids.append(random.randint(0,1))
+        class_ids.append(0)
 
     response = PredictResponseDto(
         class_ids=class_ids

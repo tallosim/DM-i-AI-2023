@@ -1,0 +1,7 @@
+
+version: "3"
+services:
+  emily-tumor-segmentation-s753o9:
+    volumes:
+      - ../../:/workspace:cached
+
